@@ -29,7 +29,6 @@ class lstm_processing(nn.Module):
             nn.Linear(128, 1),
             nn.Sigmoid())'''
         self.regression = torch.nn.Sequential(
-            nn.Linear(4, 1),
             nn.Sigmoid())
         self.regression_1 = torch.nn.Sequential(
             nn.Linear(128, 1),
