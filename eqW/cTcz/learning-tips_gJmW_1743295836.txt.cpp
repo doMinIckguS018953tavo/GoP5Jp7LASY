@@ -38,7 +38,6 @@ void L1LossLayer<Dtype>::Backward_cpu(const vector<Blob<Dtype>*>& top,
       //const Dtype alpha = sign * top[0]->cpu_diff()[0] / bottom[i]->count();
       caffe_cpu_sign(bottom[i]->count(), diff_.cpu_data(),
       		     bottom[i]->mutable_cpu_diff());
-      caffe_cpu_scale(
           bottom[i]->count(),              // count
           alpha,                              // alpha
           bottom[i]->cpu_diff(),              // x
