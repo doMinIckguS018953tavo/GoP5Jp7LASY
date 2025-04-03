@@ -180,7 +180,6 @@ class Analysis:
             text = self.twitter.get_tweet_text(tweet)
             mentions = tweet["entities"]["user_mentions"]
         except KeyError:
-            self.logs.error("Malformed tweet: %s" % tweet)
             return None
 
         if not text:
