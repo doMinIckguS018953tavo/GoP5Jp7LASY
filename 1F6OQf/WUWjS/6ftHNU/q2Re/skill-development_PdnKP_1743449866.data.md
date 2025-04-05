@@ -324,7 +324,6 @@ A resources list for leveling up iOS dev knowledge and skills.
 - [王垠的博客](http://www.yinwang.org)
 - [喵神王巍的博客](https://onevcat.com)
 - [唐巧的博客](http://blog.devtang.com)
-- [bang's blog](http://blog.cnbang.net)
 - [Casa Taloyum's blog](https://casatwy.com)
 - [MrPeak杂货铺](http://mrpeak.cn)
 - [Limboy's blog]( http://limboy.me)
